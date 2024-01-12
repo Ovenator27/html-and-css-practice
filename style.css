@@ -1,0 +1,62 @@
+
+
+* {
+    margin: 10;
+    margin-left: 10px;
+    padding: 10;
+    box-sizing: border-box;
+    font-size: 20px;
+    background-color: rgb(157, 176, 195);
+}
+
+.container {
+    display: flex;
+}
+
+h1 {
+    font-size: 60px;
+}
+
+h1, h2 {
+    text-decoration: underline;
+    font-family: Poppins, sans-serif;
+}
+
+.profile-pic {
+    width: 250px;
+    height: auto;
+    border-radius: 50%;
+}
+
+.bio-pic {
+    width: 1000px;
+    height: 500px;
+    border-radius: 10%;
+    border-style: solid;
+    border-color: black;
+    border-width: 5px;
+}
+
+a {
+    font-size: 25px;
+    margin-left: 0;
+}
+
+ul {
+    line-height: 70px;
+    list-style-type: square;
+    color: brown;
+}
+
+table {
+    border: solid;
+    border-collapse: collapse;
+    width: 90%;
+    table-layout: fixed;
+    display: block;
+}
+
+th, tr, td {
+    border: solid;
+    text-align: center;
+}
